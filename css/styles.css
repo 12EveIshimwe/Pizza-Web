@@ -23,6 +23,7 @@
  .card{
     background-color: black;
     opacity: 1;
+    text-decoration: beige;
     /* box-shadow: 5px 5px 5px; */
   }
   #pizzaDetails{
@@ -53,7 +54,9 @@
  }
  .card-footer {
      text-align: center;
+     background-color: yellowgreen;
  }
  #marquee {
-     background-color: rgba(red, green, blue, alpha);
+    background-color: beige;
  }
+ 
