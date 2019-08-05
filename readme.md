@@ -4,11 +4,11 @@ By Eve Ishimwe
 ## Description
 "The Pizza with Love" pizzeria is a webpage that will be so useful to people and will surely save time. Whereby,one will have to order a pizza or more
 than one online not only that and he/she will also have to fill in the pizza size,its crust and toppings depending on what she/he likes and also the available one.
-After that,the user will get details 
+After that,the user will get details about the orders and also the delivery price. 
 ## Installation Requirements
 None
 ## Behavior Drive Development
-1.The user will first input his/her birthday dates.
+1.The user will input the pizza size,crust,toppings and number of pizzas wanted.
 2.The user have to selct his/her gender.
 3.The page displays the user's birthday day and Akan name.
 ## Bugs:
