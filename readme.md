@@ -1,6 +1,6 @@
-## Akan Names(Ghana)
+## Pizza Web
 By Eve Ishimwe
-## This website will be helpful to display names of people who entered their birthday dates.
+## This Piza Web will help users to place their orders
 ## Description
 This Akan Website display names for a baby girl/boy right after birthday by taking his birthday dates and his gender and they get his/her name in Akan.
 Those names are named after days in Akan,and every possess a name corresponding to the day he/she was given birth. 
