@@ -34,15 +34,15 @@
   }
  #deliver{
   display: none;
-  background-color: green;
+  background-color: yellowgreen;
  }
  #pickup{
   display: none;
-  background-color: green;
+  background-color: yellowgreen;
  }
  #checkout{
   display: none;
-  background-color: green;
+  background-color: yellowgreen;
  }
  #price{
   text-align: center;
@@ -59,7 +59,7 @@
  #marquee {
     background-color: beige;
  }
- #price,#delivery,#pickup,#checkout {
+ #price,#delivery,#pickup,#checkout,#send {
      background-color: orange;
  }
  

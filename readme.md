@@ -11,7 +11,7 @@ None
 1.The client will input the pizza size,crust,toppings and number of pizzas wanted.
 2.The client will get details of the order he/she made.
 3.The client will input his/her address and be given the delivery price.
-4.
+4.Then the delivery gets to be done.
 ## Bugs:
 None
 ## Technologies Used:
