@@ -13,16 +13,14 @@
    font-weight: bold;
  }
  .jumbotron{
-     background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/pi.jpg");
-     background-repeat: no-repeat;
+    background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/pi.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
     color: white;
  }
  .card{
-    background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/piZZa.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     opacity: 1;
     box-shadow: 5px 10px 5px;
   }
