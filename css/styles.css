@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+    .car-body{
+      width: 100%;
+    }
+  }
+ @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+ body{
+   color: 0 solid black;
+   font-family: 'PT Sans', sans-serif;
+   background-color: burlywood;
+   font-weight: bold;
+ }
+ .jumbotron{
+     background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/pi.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+ }
+ .card{
+    background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/piZZa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    box-shadow: 5px 10px 5px;
+  }
+  #pizzaDetails{
+    display: none;
+  }
+  #pizzaDetail{
+    display: none;
+  }
+ #deliver{
+  display: none;
+ }
+ #pickup{
+  display: none;
+ }
+ #checkout{
+  display: none;
+ }
+ #price{
+  text-align: center;
+  margin-top: 5%;
+ }

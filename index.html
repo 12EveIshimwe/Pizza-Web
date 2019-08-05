@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PizzaWeb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+ </head>
+ <body>
+    <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1 class="card-title"><em>CRAZY FOR PIZZA</h1>
+                </div>
+                <div class="col-md-3">
+                    <!-- <img src="images/pizzaLogo.jpeg" width="300" height="200" id="logo"> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <!-- <h1 id=""><em>CRAZY FOR PIZZA</em></h1> -->
+                    </div>
+                    <p class="card-text" style="margin-top:10%; margin-left: 4%;">Choose the pizza you want at <em>CRAZY
+                            FOR PIZZA</em> and We will deliver your favorite pizza at affordable price.</p>
+                </div><br>
+<div class="card">
+        <div class="row container">
+            <div class="col-md-6">
+<form class="form-group" id="pizzaOrder">
+    <div id="pizzaSize">
+            <label for="">Choose Pizza Size</label>
+            <select required class="form-control" id="size">
+                <option></option>
+                <option value="Small">Small pizza: 2000rwf</option>
+                <option value="Medium">Medium pizza: 3000rwf</option>
+                <option value="Large">Large pizza: 4000rwf</option>
+            </select>
+        </div>
+        <div id="pizzaCrusts">
+            <label for="">Choose Pizza Crust</label>
+            <select required class="form-control" id="crust">
+                <option></option>
+                <option value="crispy">Crispy pizza: 1000rwf</option>
+                <option value="stuffed">Stuffed pizza: 1500rwf</option>
+                <option value="gluten">Gluten-free pizza: 2000rwf</option>
+            </select>
+        </div>
+<div id="pizzaTopping1">
+                <label for="">Choose Pizza Topping1: 500rwf</label>
+                <select required class="form-control" id="Topping1">
+                    <option></option>
+                    <option value="Onions">Onions</option>
+                    <option value="Spinach">Spinach</option>
+                    <option value="Green">Green peper</option>
+                    <option value="Mushroom">Mushroom</option>
+                </select>
+            </div>
+            <div id="pizzaTopping2">
+                <label for="">Choose Pizza Topping2: 1000rwf</label>
+                <select required class="form-control" id="Topping2">
+                    <option></option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Beef">Beef mince</option>
+                    <option value="Peparoni">Pepperoni</option>
+                    <option value="Sausage">Sausage</option>
+                </select>
+            </div>
+            <div id="pizzaTopping3">
+                <label for="">Choose Pizza Topping3: 500frw</label>
+                <select required class="form-control" id="Topping3">
+                    <option></option>
+                    <option value="Chicken">Cheese</option>
+                    <option value="Beef">Black Olive</option>
+                    <option value="Peparoni">Spinach</option>
+                    <option value="Sausage">Red Onions</option>
+                </select>
+            </div>
+            <div class="pizzaNumber">
+                    <label for="number">Number of pizza you want to order</label>
+                    <input required type="number" class="form-control" id="pizza-number" min="1" placeholder="Order as many as you want...">
+                </div><br>
+                <button type="submit" class="btn btn-primary" id="send">Sender Order</button>
+</form>
+</div>
+<div class="col-md-6" id="price">
+    <h4>Price: <span id="totalPizzaCost"></span></h4>
+    <div id="order-details">
+        <p><a id="pizzaDetails">Pizza Details</a></p>
+        <p id="pizzaDetail">
+        </p>
+<div class="delive-pick">
+            <button type="btn" class="btn btn-primary" id="deliver">Delivery</button>
+            <ul id="deliveryPrice"></ul>
+            <button type="btn" class="btn btn-primary" id="pickup">Pick up</button>
+</div><br>
+</div>
+    <button type="btn" class="btn btn-primary" id="checkout">Checkout</button>
+    <h3><span id="check"></span></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card-footer"  style="margin-top: 5%;">
+    <!-- <marquee behavior="" direction=""> -->
+    <div class="row">
+        <div class="col-md-2">
+            <img src="images/smallpizza.jpg" width="300" height="500" class="img-fluid">
+            <p>Small pizza</p>
+        </div>
+        <div class="col-md-2">
+            <img src="images/mediumpizza.jpg" width="300" height="100" class="img-fluid">
+            <p>Medium pizza</p>
+        </div>
+        <div class="col-md-2">
+            <img src="images/largepizza.jpg" width="300" height="200" class="img-fluid">
+            <p>Large pizza</p>
+        </div>
+        <div class="col-md-2">
+                <img src="images/thin.png" width="300" height="200" class="img-fluid">
+            </div>
+            <div class="col-md-2">
+                <img src="images/thick.jpg" width="300" height="200" class="img-fluid">
+            </div>
+            <div class="col-md-2">
+                <img src="images/gruten.jpg" width="300" height="200" class="img-fluid">
+            </div>
+    </div>
+<!-- </marquee> -->
+</div>
+</body>
+</html>
