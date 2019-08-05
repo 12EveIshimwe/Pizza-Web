@@ -7,7 +7,9 @@
  body{
    color: 0 solid black;
    font-family: 'PT Sans', sans-serif;
-   background-color: burlywood;
+   background-image: url("http://www.howsweeteats.com/wp-content/uploads/2015/05/thin-crust-pizza-I-howsweeteats.com-7.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
    font-weight: bold;
  }
  .jumbotron{
