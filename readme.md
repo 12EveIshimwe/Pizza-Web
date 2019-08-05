@@ -9,8 +9,9 @@ After that,the user will get details about the orders and also the delivery pric
 None
 ## Behavior Drive Development
 1.The user will input the pizza size,crust,toppings and number of pizzas wanted.
-2.The user have to selct his/her gender.
-3.The page displays the user's birthday day and Akan name.
+2.The user will get details of the order he/she made.
+3.The client will input his/her address and be given the delivery price.
+4.
 ## Bugs:
 None
 ## Technologies Used:
