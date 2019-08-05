@@ -59,4 +59,7 @@
  #marquee {
     background-color: beige;
  }
+ #price,#delivery,#pickup,#checkout {
+     background-color: orange;
+ }
  
