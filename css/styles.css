@@ -16,13 +16,14 @@
     background-image: url("file:///home/wecode/Documents/PizzaApp/PizzaApp/images/pi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    padding: 80px;
     color: white;
+    text-align: center;
  }
  .card{
     background-color: black;
     opacity: 1;
-    box-shadow: 5px 10px 5px;
+    /* box-shadow: 5px 5px 5px; */
   }
   #pizzaDetails{
     display: none;
@@ -46,4 +47,7 @@
  h1 {
   color: black;
   text-align: center;
+ }
+ .card-footer {
+     text-align: center;
  }
