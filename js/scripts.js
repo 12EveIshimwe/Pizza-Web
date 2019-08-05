@@ -1,30 +1,30 @@
 // Business Logic
-var del = 2000;
+var del = 20;
 var PizzatotalPrice = [];
 function Order (pizzaSize, crust) {
  this.pizzaSize = pizzaSize;
  this.crust = crust;
- this.Topping1 = 500;
- this.Topping2 = 1000;
- this.Topping3 = 500;
+ this.Topping1 = 5;
+ this.Topping2 = 10;
+ this.Topping3 = 5;
  this.pizzaPrice = 0;
  this.pizzaNumber  = 1;
  this.pizzaNumbers = [];
 }
 Order.prototype.pizzaCost = function () {
  if (this.pizzaSize === "Small") {
-   this.pizzaPrice += 2000;
+   this.pizzaPrice += 20;
  } else if (this.pizzaSize === "Medium") {
-   this.pizzaPrice += 3000;
+   this.pizzaPrice += 30;
  } else if (this.pizzaSize === "Large") {
-   this.pizzaPrice += 4000;
+   this.pizzaPrice += 40;
  }
  if (this.crust === "crispy") {
-   this.pizzaPrice += 1000;
+   this.pizzaPrice += 10;
  } else if (this.crust === "stuffed") {
-   this.pizzaPrice += 1500;
+   this.pizzaPrice += 15;
  } else if (this.crust === "glutenFree") {
-   this.pizzaPrice += 2000;
+   this.pizzaPrice += 20;
  }
  for(var j = 1; j < this.pizzaNumbers.length; j++){
    pizzaNumber += pizzaNumbers[j];
@@ -59,7 +59,7 @@ $(document).ready(function() {
    var Topping2 = $("select#Topping2").val();
    var Topping3 = $("select#Topping3").val();
    var pizzaNumbers = $("input#pizza-number").val();
-   var pizzaDetails = (pizzaNumbers + " " + pizzaSize + ": " + crust + ", " + Topping1 + ", " + Topping2 + ", " + Topping3);
+   var pizzaDetails = (pizzaNumbers + " " + pizzaSize + ": " + crust + ", " + Topping1);
    var newPizzaOrder = new Order(pizzaSize, crust);
    newPizzaOrder.pizzaCost();
    PizzatotalPrice.push(newPizzaOrder.pizzaPrice);
