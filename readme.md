@@ -1,9 +1,8 @@
 ## Pizza Web
 By Eve Ishimwe
-## This Piza Web will help users to place their orders
+## This Pizza Web will help users to place their orders online and get all charges to be paid plus the delivery.
 ## Description
-This Akan Website display names for a baby girl/boy right after birthday by taking his birthday dates and his gender and they get his/her name in Akan.
-Those names are named after days in Akan,and every possess a name corresponding to the day he/she was given birth. 
+"The Pizza with Love" pizzeria
 ## Installation Requirements
 None
 ## Behavior Drive Development
