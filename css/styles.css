@@ -54,4 +54,6 @@
  .card-footer {
      text-align: center;
  }
- 
+ #marquee {
+     background-color: rgba(red, green, blue, alpha);
+ }
